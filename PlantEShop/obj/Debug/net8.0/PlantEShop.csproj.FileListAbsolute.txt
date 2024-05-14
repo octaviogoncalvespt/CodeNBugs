@@ -146,3 +146,4 @@ C:\Users\octav\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\refint\PlantEShop.d
 C:\Users\octav\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\PlantEShop.pdb
 C:\Users\octav\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\PlantEShop.genruntimeconfig.cache
 C:\Users\octav\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\ref\PlantEShop.dll
+C:\Users\octav\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\PlantEShop.sourcelink.json

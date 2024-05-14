@@ -1,14 +1,23 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\views\\category\\managementindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\category\\managementindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\product\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 422,
+          "DockedWidth": 551,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -18,6 +27,38 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 630,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagementIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Category\\ManagementIndex.cshtml",
+              "RelativeDocumentMoniker": "PlantEShop\\Views\\Category\\ManagementIndex.cshtml",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Category\\ManagementIndex.cshtml",
+              "RelativeToolTip": "PlantEShop\\Views\\Category\\ManagementIndex.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T18:03:21.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Product\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PlantEShop\\Views\\Product\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Product\\Delete.cshtml",
+              "RelativeToolTip": "PlantEShop\\Views\\Product\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T17:58:54.043Z",
+              "EditorCaption": ""
             }
           ]
         }
