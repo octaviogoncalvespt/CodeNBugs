@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6G7aFSrmCX2GSBq1tQb+rS6breKEW8xAHr5zPiAxOrYnZkD84/Je8bIlNVBvyHHuBvTW7zPsqSmaB1bXvrWI9Q==",
+  "dgSpecHash": "lk4yp39Yfw3QixITm2+C5DgKXgJxVIqb20fRGMGTYk2hy4TRwYfRBg+mjxzWQjE+mHGgbscafWRGU5I9WhtwuQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\PlantEShop.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "C:\\Users\\octav\\.nuget\\packages\\azure.storage.files.shares\\12.1.0\\azure.storage.files.shares.12.1.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\azure.storage.queues\\12.11.1\\azure.storage.queues.12.11.1.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\octav\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",

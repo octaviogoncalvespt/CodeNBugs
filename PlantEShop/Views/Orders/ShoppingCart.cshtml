@@ -1,0 +1,65 @@
+﻿@using PlantEShop.VM
+@model ShoppingCartVM
+
+@{
+    ViewData["Title"] = "Shopping cart summary";
+}
+
+<div class="row">
+    <div class="col-md-8 offset-2">
+        <div class="text-center">
+            <h2>Your shopping cart summary</h2>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Amount</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>SubTotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ShoppingCart.ShoppingCartItems)
+                {
+                    <tr>
+                        <td class="align-content-center">@item.Amount</td>
+                        <td class="align-content-center">@item.Product.ProductName</td>
+                        <td class="align-content-center">@item.Product.ProductPrice.ToString("c")</td>
+                        <td class="align-content-center">@((item.Amount * item.Product.ProductPrice).ToString("c"))</td>
+                        <td class="align-content-center">
+                            <a class="text-danger" asp-controller="Orders" asp-action="RemoveItemFromShoppingCart" asp-route-id="@item.Product.ProductId">
+                                <i class="bi bi-cart-dash"></i>
+                            </a>
+                            |
+                            <a class="text-success" asp-controller="Orders" asp-action="AddItemToShoppingCart" asp-route-id="@item.Product.ProductId">
+                                <i class="bi bi-cart-plus"></i>
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"></td>
+                    <td><b>Total:</b></td>
+                    <td>@Model.ShoppingCartTotal.ToString("c")</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <div class="text-center">
+            <div class="btn-group">
+                <a class="btn btn-outline-primary" asp-action="CompleteOrder">
+                    Complete Order
+                </a>
+                <a class="btn btn-outline-success" asp-controller="Product" asp-action="Index">
+                    Add more items
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

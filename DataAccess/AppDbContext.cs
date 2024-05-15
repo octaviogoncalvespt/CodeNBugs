@@ -17,10 +17,18 @@ namespace DataAccess
         public DbSet<Product> Products { get; set; }
 
         public DbSet<Category> Categories { get; set; }
-        
-        
 
-        
+        // Order Tables
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<OrderItem> OrderItems { get; set; }
+
+        public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+
+
+
+
 
 
 
