@@ -122,7 +122,7 @@ namespace PlantEShop.Controllers
 
 
             await _service.UpdateAsync(id, product);
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(ManagementIndex));
         }
 
 

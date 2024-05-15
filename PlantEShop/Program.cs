@@ -7,6 +7,7 @@ using Repo.Services;
 using Microsoft.AspNetCore.Http;
 using Azure.Storage.Blobs;
 using Azure.Identity;
+using PlantEShop.Controllers.Cart;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,9 +15,14 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 
+
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUploadImageService, UploadImageService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddSession();
+builder.Services.AddScoped(sc => ShoppingCart.GetShoppingCart(sc));
+builder.Services.AddScoped<IOrdersService, OrdersService>();
 
 
 
@@ -46,8 +52,10 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 
 app.UseAuthorization();
+
 
 app.MapControllerRoute(
     name: "default",

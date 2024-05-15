@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "D/Y4yK25UEQ8UozEI/PAhyxnMLancDDODD5clSrQNt0VyDO+pUOBT1TPJo0YcPfA6T20WzFavaj9SaODfN5VQQ==",
+  "dgSpecHash": "Qf6FsjxFxz2hG58lt9zAql03AwJ+4/zKAmwN77H835V72uhArjMcLwE0i5XoAiQlClP6Vf2FRiPqQVedEKjrHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\Repo\\Repo.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\octav\\.nuget\\packages\\azure.storage.blobs\\12.13.1\\azure.storage.blobs.12.13.1.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\azure.storage.common\\12.12.0\\azure.storage.common.12.12.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\octav\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.17\\microsoft.aspnetcore.http.features.5.0.17.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "C:\\Users\\octav\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
