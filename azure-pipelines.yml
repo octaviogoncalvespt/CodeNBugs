@@ -1,0 +1,32 @@
+
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+variables:
+  solution: '**/*.sln'
+  buildPlatform: 'Any CPU'
+  buildConfiguration: 'Release'
+
+steps:
+- task: Docker@2
+  inputs:
+    containerRegistry: 'CodeNBugs'
+    repository: 'octaviogoncalves98/code-n-bugs'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
+    buildContext: '.'
+    tags: |
+      $(Build.BuildId)
+      latest
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'MainSub(be69e441-eb21-44fa-9ce0-baf42773101b)'
+    appType: 'webAppContainer'
+    WebAppName: 'codenbugs'
+    DockerNamespace: 'octaviogoncalves98'
+    DockerRepository: 'code-n-bugs'
+    DockerImageTag: '$(Build.BuildId)'
