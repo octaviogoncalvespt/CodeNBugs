@@ -19,7 +19,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'CodeNBugs'
-    repository: 'octaviogoncalvespt98/codenbugs'
+    repository: 'octaviogoncalves98/codenbugs'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
