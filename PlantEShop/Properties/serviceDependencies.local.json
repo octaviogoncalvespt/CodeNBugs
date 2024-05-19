@@ -15,6 +15,10 @@
       "type": "storage.azure",
       "connectionId": "AzureBlobStorageConnection",
       "dynamicId": null
+    },
+    "secrets1": {
+      "type": "secrets.user",
+      "dynamicId": null
     }
   }
 }
