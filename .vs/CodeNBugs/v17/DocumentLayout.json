@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\octav\\AppData\\Roaming\\Microsoft\\UserSecrets\\2dc7e37f-2418-4c95-8218-c9031f4f63df\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -27,6 +30,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "secrets.json",
+              "DocumentMoniker": "C:\\Users\\octav\\AppData\\Roaming\\Microsoft\\UserSecrets\\2dc7e37f-2418-4c95-8218-c9031f4f63df\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\2dc7e37f-2418-4c95-8218-c9031f4f63df\\secrets.json",
+              "ToolTip": "C:\\Users\\octav\\AppData\\Roaming\\Microsoft\\UserSecrets\\2dc7e37f-2418-4c95-8218-c9031f4f63df\\secrets.json",
+              "RelativeToolTip": "..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\2dc7e37f-2418-4c95-8218-c9031f4f63df\\secrets.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAACUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T19:32:59.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Dockerfile",
               "RelativeDocumentMoniker": "PlantEShop\\Dockerfile",
