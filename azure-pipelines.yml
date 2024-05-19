@@ -19,9 +19,12 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'CodeNBugs'
-    repository: 'octaviogoncalvespt'
+    repository: 'octaviogoncalvespt98/codenbugs'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    tags: |
+      $(Build.BuildId)
+      latest
 
 - task: AzureRmWebAppDeployment@4
   inputs:
