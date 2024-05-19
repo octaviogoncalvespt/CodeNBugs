@@ -8,6 +8,7 @@ variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
+  imageName: 'octaviogoncalves98/codenbugs'
 
 steps:
 - task: Docker@2
