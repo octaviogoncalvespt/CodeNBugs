@@ -10,3 +10,4 @@ C:\Users\octav\Desktop\CodeNBugs\DataHub\obj\Debug\net8.0\refint\DataHub.dll
 C:\Users\octav\Desktop\CodeNBugs\DataHub\obj\Debug\net8.0\DataHub.pdb
 C:\Users\octav\Desktop\CodeNBugs\DataHub\obj\Debug\net8.0\ref\DataHub.dll
 C:\Users\octav\Desktop\CodeNBugs\DataHub\obj\Debug\net8.0\DataHub.sourcelink.json
+C:\Users\octav\Desktop\CodeNBugs\DataHub\obj\Debug\net8.0\DataHub.csproj.AssemblyReference.cache

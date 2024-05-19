@@ -1,10 +1,13 @@
 ﻿using DataHub.Models;
+using DataHub.Static;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Repo.Services;
 
 namespace PlantEShop.Controllers
 {
+    [Authorize(Roles = UserRoles.Admin)]
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
@@ -13,6 +16,8 @@ namespace PlantEShop.Controllers
         {
             _categoryService = categoryService;
         }
+
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var allCategories = await _categoryService.GetAllAsync();

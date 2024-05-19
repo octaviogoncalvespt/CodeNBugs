@@ -1,4 +1,5 @@
 ﻿using DataHub.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,9 +9,9 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext<ApplicationUser>
     {
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) 
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 
@@ -25,6 +26,8 @@ namespace DataAccess
         public DbSet<OrderItem> OrderItems { get; set; }
 
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
+
+
 
 
 

@@ -27,8 +27,8 @@
                     <tr>
                         <td class="align-content-center">@item.Amount</td>
                         <td class="align-content-center">@item.Product.ProductName</td>
-                        <td class="align-content-center">@item.Product.ProductPrice.ToString("c")</td>
-                        <td class="align-content-center">@((item.Amount * item.Product.ProductPrice).ToString("c"))</td>
+                        <td class="align-content-center">@item.Product.ProductPrice €</td>
+                        <td class="align-content-center">@((item.Amount * item.Product.ProductPrice)) €</td>
                         <td class="align-content-center">
                             <a class="text-danger" asp-controller="Orders" asp-action="RemoveItemFromShoppingCart" asp-route-id="@item.Product.ProductId">
                                 <i class="bi bi-cart-dash"></i>
@@ -45,7 +45,7 @@
                 <tr>
                     <td colspan="2"></td>
                     <td><b>Total:</b></td>
-                    <td>@Model.ShoppingCartTotal.ToString("c")</td>
+                    <td>@Model.ShoppingCartTotal €</td>
                     <td></td>
                 </tr>
             </tfoot>
