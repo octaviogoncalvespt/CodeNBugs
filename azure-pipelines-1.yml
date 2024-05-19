@@ -18,7 +18,7 @@ steps:
     Dockerfile: '**/Dockerfile'
     buildContext: '.'
     tags: |
-      $(Build.BuilId)
+      $(Build.BuildId)
       latest
 - task: AzureRmWebAppDeployment@4
   inputs:
