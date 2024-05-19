@@ -1,8 +1,3 @@
-# ASP.NET Core (.NET Framework)
-# Build and test ASP.NET Core projects targeting the full .NET Framework.
-# Add steps that publish symbols, save build artifacts, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/dotnet-core
-
 trigger:
 - main
 
@@ -15,17 +10,16 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-
 - task: Docker@2
   inputs:
     containerRegistry: 'CodeNBugs'
-    repository: 'octaviogoncalves98/codenbugs'
+    repository: 'octaviogoncalves98/code-n-bugs'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
+    buildContext: '.'
     tags: |
       $(Build.BuildId)
       latest
-
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
@@ -33,5 +27,5 @@ steps:
     appType: 'webAppContainer'
     WebAppName: 'codenbugs'
     DockerNamespace: 'octaviogoncalves98'
-    DockerRepository: 'codenbugs'
+    DockerRepository: 'code-n-bugs'
     DockerImageTag: '$(Build.BuildId)'
