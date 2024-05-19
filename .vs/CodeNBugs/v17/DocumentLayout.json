@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
@@ -51,6 +55,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\appsettings.json",
+              "RelativeDocumentMoniker": "PlantEShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\appsettings.json",
+              "RelativeToolTip": "PlantEShop\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-19T18:48:54.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Dockerfile",
               "RelativeDocumentMoniker": "PlantEShop\\Dockerfile",
@@ -58,12 +75,11 @@
               "RelativeToolTip": "PlantEShop\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-19T18:11:55.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T18:11:55.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "RegisterCompleted.cshtml",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Account\\RegisterCompleted.cshtml",
               "RelativeDocumentMoniker": "PlantEShop\\Views\\Account\\RegisterCompleted.cshtml",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AccessDenied.cshtml",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Account\\AccessDenied.cshtml",
               "RelativeDocumentMoniker": "PlantEShop\\Views\\Account\\AccessDenied.cshtml",
@@ -87,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "PlantEShop\\Controllers\\AccountController.cs",
@@ -99,7 +115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "PlantEShop\\Controllers\\CategoryController.cs",
@@ -111,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "PlantEShop\\Controllers\\OrdersController.cs",
@@ -123,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "PlantEShop\\Controllers\\ProductController.cs",
@@ -131,8 +147,7 @@
               "RelativeToolTip": "PlantEShop\\Controllers\\ProductController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAC2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-18T18:01:03.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-18T18:01:03.673Z"
             }
           ]
         }
