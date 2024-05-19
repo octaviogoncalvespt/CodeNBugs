@@ -2,9 +2,12 @@
 using PlantEShop.VM;
 using PlantEShop.Controllers.Cart;
 using Repo.Services;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PlantEShop.Controllers
 {
+    [Authorize]
     public class OrdersController : Controller
     {
         private readonly IProductService _productService;
@@ -19,7 +22,10 @@ namespace PlantEShop.Controllers
 
         public async Task<IActionResult> Index()
         {
-            var orders = await _ordersService.GetOrdersByUserIdAsync("");
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            string userRole = User.FindFirstValue(ClaimTypes.Role);
+
+            var orders = await _ordersService.GetOrdersByUserIdAndRoleAsync(userId, userRole);
             return View(orders);
         }
         public IActionResult ShoppingCart()
@@ -62,8 +68,8 @@ namespace PlantEShop.Controllers
         public async Task<IActionResult> CompleteOrder()
         {
             var items = _shoppingCart.GetShoppingCartItems();
-            string userId = "";
-            string userEmail = "";
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            string userEmail = User.FindFirstValue(ClaimTypes.Email);
 
             await _ordersService.StoreOrderAsync(items, userId, userEmail);
             await _shoppingCart.ClearShoppingCartAsync();

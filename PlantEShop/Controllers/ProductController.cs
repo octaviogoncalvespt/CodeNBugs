@@ -10,9 +10,12 @@ using System.Diagnostics.Eventing.Reader;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Extensions.Azure;
 using DataAccess.Migrations;
+using Microsoft.AspNetCore.Authorization;
+using DataHub.Static;
 
 namespace PlantEShop.Controllers
 {
+    [Authorize(Roles = UserRoles.Admin)]
     public class ProductController : Controller
     {
         private readonly IProductService _service;
@@ -27,10 +30,25 @@ namespace PlantEShop.Controllers
             _categoryService = categoryService;
 
         }
+
+        [AllowAnonymous]
         public async Task<IActionResult> Index()
         {
             var allProducts = await _service.GetAllAsync();
             return View(allProducts);
+        }
+
+        [AllowAnonymous]
+        public async Task<IActionResult> Filter(string searchString)
+        {
+            var allProducts = await _service.GetAllAsync();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                var filteredResult = allProducts.Where(n => n.ProductName.ToLower().Contains(searchString.ToLower()) || n.ProductDescription.ToLower().Contains(searchString.ToLower())).ToList();
+                return View("Index", filteredResult);
+            }
+            return View("Index", allProducts);
         }
 
         public async Task<IActionResult> ManagementIndex()
@@ -148,6 +166,7 @@ namespace PlantEShop.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> Details(int id)
         {
             var ProductDetails = await _service.GetByIdAsync(id);
@@ -159,6 +178,7 @@ namespace PlantEShop.Controllers
             return View(ProductDetails);
         }
 
+        [AllowAnonymous]
         public async Task<IActionResult> ProductsByCategory(int id)
         {
             var productsInCategory = await _service.GetByCategoryAsync(id);
