@@ -12,7 +12,7 @@ variables:
 steps:
 - task: Docker@2
   inputs:
-    containerRegistry: 'CodeNBugs'
+    containerRegistry: 'DockerHub'
     repository: 'octaviogoncalves98/codenbugs'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
