@@ -1,38 +1,4 @@
 {
-  "dependencies": {
-    "mssql1": {
-      "restored": true,
-      "restoreTime": "2024-05-02T22:48:31.6710691Z"
-    },
-    "secrets1": {
-      "restored": true,
-      "restoreTime": "2024-05-19T19:15:26.5326885Z"
-    },
-    "storage1": {
-      "restored": true,
-      "restoreTime": "2024-05-03T15:36:34.4542634Z"
-    }
-  },
-  "parameters": {
-    "mssql1.subscriptionId": {
-      "Name": "mssql1.subscriptionId",
-      "Type": "subscription",
-      "Value": "be69e441-eb21-44fa-9ce0-baf42773101b"
-    },
-    "mssql1.resourceGroupName": {
-      "Name": "mssql1.resourceGroupName",
-      "Type": "resourceGroup",
-      "Value": "cloud78343"
-    },
-    "storage1.resourceGroupName": {
-      "Name": "storage1.resourceGroupName",
-      "Type": "resourceGroup",
-      "Value": "cloud78343"
-    },
-    "storage1.subscriptionId": {
-      "Name": "storage1.subscriptionId",
-      "Type": "subscription",
-      "Value": "be69e441-eb21-44fa-9ce0-baf42773101b"
-    }
-  }
+  "dependencies": {},
+  "parameters": {}
 }
