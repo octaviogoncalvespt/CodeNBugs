@@ -43,8 +43,8 @@ builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(conn
 
 builder.Services.AddAzureClients(clientBuilder =>
 {
-    clientBuilder.AddBlobServiceClient(builder.Configuration["AzureBlobStorageConnection:blob"]!, preferMsi: true);
-    clientBuilder.AddQueueServiceClient(builder.Configuration["AzureBlobStorageConnection:queue"]!, preferMsi: true);
+    clientBuilder.AddBlobServiceClient(builder.Configuration["AzureBlobStorageConnection"]);
+    clientBuilder.AddQueueServiceClient(builder.Configuration["AzureBlobStorageConnection"]);
 });
 
 var app = builder.Build();
