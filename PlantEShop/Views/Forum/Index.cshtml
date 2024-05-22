@@ -1,0 +1,38 @@
+﻿@model IEnumerable<Post>
+
+@{
+    ViewData["Title"] = "Forum";
+}
+
+<h1>Posts</h1>
+@if (User.Identity.IsAuthenticated)
+{
+    <div>
+        <a class="btn btn-primary" asp-controller="Forum" asp-action="Create">New post</a>
+    </div>
+}
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Image</th>
+            <th ">Posted by</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var post in Model)
+        {
+            <tr>
+                <td><b>@post.Title</b></td>
+                <td>
+                    <img class="img-thumbnail" src="@post.ImgURL("codenbugssa","codenbugsproductsimg")" alt="@post.Title" style="max-width: 150px" />
+                </td>
+                <td>@post.User.FullName</td>
+                <td>
+                    <a class="btn btn-outline-info" asp-controller="Forum" asp-action="Details" asp-route-id="@post.Id"><i class="bi bi-eye"></i>View post</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

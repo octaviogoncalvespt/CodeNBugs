@@ -34,14 +34,14 @@
                                 {
                                     <li>
                                         <div class="alert alert-info" role="alert">
-                                            <span class="badge bg-success">@item.Amount</span> [@item.Price.ToString("c")] - @item.Product.ProductName
+                                            <span class="badge bg-success">@item.Amount</span> [@item.Price.ToString("0.00")€] - @item.Product.ProductName
                                         </div>
                                     </li>
                                 }
                             </ul>
                         </td>
                         <td class="align-content-center">
-                            @order.OrderItems.Select(m => m.Product.ProductPrice * m.Amount).Sum().ToString("c")
+                            @order.OrderItems.Select(m => m.Product.ProductPrice * m.Amount).Sum().ToString("0.00")€
                         </td>
                         @if (User.Identity.IsAuthenticated && User.IsInRole("admin"))
                         {

@@ -17,6 +17,8 @@ namespace PlantEShop.Controllers.Cart
 
         public string ShoppingCartId { get; set; }
         public List<ShoppingCartItem> ShoppingCartItems { get; set; }
+        
+        public string UserId { get; set; }
 
         public ShoppingCart(AppDbContext context)
         {

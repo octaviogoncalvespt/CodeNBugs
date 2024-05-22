@@ -4,6 +4,7 @@ using PlantEShop.Controllers.Cart;
 using Repo.Services;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
+using DataHub.Models;
 
 namespace PlantEShop.Controllers
 {
@@ -65,16 +66,32 @@ namespace PlantEShop.Controllers
             return RedirectToAction(nameof(ShoppingCart));
         }
 
+        public async Task<IActionResult> OrderConfirm()
+        {
+            
+            var items = _shoppingCart.GetShoppingCartItems();
+            _shoppingCart.ShoppingCartItems = items;
+            var response = new ShoppingCartVM()
+            {
+                ShoppingCart = _shoppingCart,
+                ShoppingCartTotal = _shoppingCart.GetShoppingCartTotal()
+            };
+
+            return View("OrderConfirm", response);
+            
+        }
+
         public async Task<IActionResult> CompleteOrder()
         {
             var items = _shoppingCart.GetShoppingCartItems();
             string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             string userEmail = User.FindFirstValue(ClaimTypes.Email);
+           
+            
 
             await _ordersService.StoreOrderAsync(items, userId, userEmail);
             await _shoppingCart.ClearShoppingCartAsync();
             return View("OrderCompleted");
-
         }
     }
 }

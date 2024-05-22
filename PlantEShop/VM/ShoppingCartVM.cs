@@ -1,4 +1,5 @@
-﻿using PlantEShop.Controllers.Cart;
+﻿using DataHub.Models;
+using PlantEShop.Controllers.Cart;
 
 namespace PlantEShop.VM
 {
@@ -7,5 +8,6 @@ namespace PlantEShop.VM
         public ShoppingCart ShoppingCart { get; set; }
 
         public double ShoppingCartTotal { get; set; }
+
     }
 }
