@@ -1,0 +1,53 @@
+﻿@using PlantEShop.VM
+@model ShoppingCartVM;
+
+@{
+    ViewData["Title"] = "Shopping cart summary";
+}
+
+<div class="row">
+    <div class="col-md-8 offset-2">
+        <div class="text-center">
+            <h2>Checkout</h2>
+        </div>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Amount</th>
+                    <th>Image</th>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>SubTotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.ShoppingCart.ShoppingCartItems)
+                {
+                    <tr>
+                        <td class="align-content-center">@item.Amount</td>
+                        <td class="align-middle">
+                            <img class="rounded-circle" src="@item.Product.ImgURL("codenbugssa","codenbugsproductsimg")" alt="@item.Product.ProductName" style="max-width: 150px" />
+                        </td>
+                        <td class="align-content-center">@item.Product.ProductName</td>
+                        <td class="align-content-center">@item.Product.ProductPrice €</td>
+                        <td class="align-content-center">@((item.Amount * item.Product.ProductPrice)) €</td>
+                    </tr>
+                }
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2"></td>
+                    <td><b>Total:</b></td>
+                    <td>@((Model.ShoppingCartTotal + 4.99))€ + (4.99€ Portes)</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+        </table>
+        <div>
+            <a class="btn btn-outline-primary" asp-controller="Orders" asp-action="CompleteOrder">Complete checkout</a>
+            <a class="btn btn-outline-success" asp-controller="Orders" asp-action="ShoppingCart">Go Back</a>
+        </div>
+    </div>
+</div>

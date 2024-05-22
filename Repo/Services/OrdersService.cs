@@ -33,7 +33,7 @@ namespace Repo.Services
             var order = new Order()
             {
                 UserId = userId,
-                Email = userEmail
+                Email = userEmail,
             };
 
             await _context.Orders.AddAsync(order);

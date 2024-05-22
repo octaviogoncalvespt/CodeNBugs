@@ -27,6 +27,8 @@ namespace DataAccess
 
         public DbSet<ShoppingCartItem> ShoppingCartItems { get; set; }
 
+        public DbSet<Post> Posts { get; set; }
+
 
 
 
