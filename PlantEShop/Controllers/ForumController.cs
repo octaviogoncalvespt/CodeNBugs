@@ -85,22 +85,23 @@ namespace PlantEShop.Controllers
 
         
         [HttpPost]
-        public async Task<IActionResult> AddComment([Bind("Content,yes")] Comment comment, int postId)
+        public async Task<IActionResult> AddComment([Bind("Content")] Comment comment, int postId)
         {
             string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
             comment.UserId = userId;
             comment.CreatedAt = DateTime.Now;
             comment.PostId = postId;
 
+            await _service.AddCommentAsync(comment, postId);
 
             if (!ModelState.IsValid)
             {
                 return View("Error");
             }
 
-            await _service.AddCommentAsync(comment, postId);
+            var PostDetails = await _service.GetByIdAsync(postId);
 
-            return PartialView("_CommentPartial", comment);
+            return View("Details", PostDetails);
         }
     }
 }

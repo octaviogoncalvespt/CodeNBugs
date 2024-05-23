@@ -16,7 +16,7 @@
         <tr>
             <th>Title</th>
             <th>Image</th>
-            <th ">Posted by</th>
+            <th>Posted by</th>
             <th></th>
         </tr>
     </thead>
@@ -30,7 +30,7 @@
                 </td>
                 <td>@post.User.FullName</td>
                 <td class="align-middle">
-                    <a asp-controller="Forum" asp-action="Details" asp-route-id="@post.Id" class="btn btn-outline-info"> <i class="bi bi-eye"></i>Details</a>
+                    <a asp-action="Details" asp-route-id="@post.Id" class="btn btn-outline-info"> <i class="bi bi-eye"></i>Details</a>
                 </td>
 
             </tr>

@@ -15,14 +15,14 @@ namespace DataHub.Models
 
         public string Content { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.Now;
+        public DateTime CreatedAt { get; set; }
 
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
         [ForeignKey(nameof(UserId))]
-        public ApplicationUser User { get; set; }
+        public ApplicationUser? User { get; set; }
 
         public int PostId { get; set; }
         [ForeignKey(nameof(PostId))]
-        public Post Post { get; set; }
+        public Post? Post { get; set; }
     }
 }
