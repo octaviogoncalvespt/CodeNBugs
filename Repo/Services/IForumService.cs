@@ -18,5 +18,7 @@ namespace Repo.Services
         Task<Post> UpdateAsync(int id, Post newPost);
 
         Task DeleteAsync(int id);
+
+        Task<Post> AddCommentAsync(Comment comment, int postId);
     }
 }

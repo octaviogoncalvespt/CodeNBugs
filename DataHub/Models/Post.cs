@@ -31,5 +31,7 @@ namespace DataHub.Models
             string result = "https://" + account + ".blob.core.windows.net/" + container + "/" + this.PostImage;
             return result;
         }
+
+        public List<Comment>? Comments { get; set; }
     }
 }

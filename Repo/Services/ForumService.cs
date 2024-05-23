@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,9 +20,18 @@ namespace Repo.Services
         }
         public async Task AddAsync(Post post)
         {
-           
+
             await _context.Posts.AddAsync(post);
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<Post> AddCommentAsync(Comment comment, int postId)
+        {
+            var result = await _context.Posts.Include(p => p.User).FirstOrDefaultAsync(p => p.Id == postId);
+            await _context.Comments.AddAsync(comment);
+            await _context.SaveChangesAsync();
+
+            return result;
         }
 
         public async Task DeleteAsync(int id)
@@ -39,8 +49,8 @@ namespace Repo.Services
 
         public async Task<Post> GetByIdAsync(int id)
         {
-           
-            var result = await _context.Posts.Include(p => p.User).FirstOrDefaultAsync(n => n.Id == id);
+
+            var result = await _context.Posts.Include(p => p.Comments).ThenInclude(c => c.User).Include(p => p.User).FirstOrDefaultAsync(p => p.Id == id);
 
 
             return result;
@@ -54,7 +64,7 @@ namespace Repo.Services
             existingPost.Title = newPost.Title;
             existingPost.PostImage = newPost.PostImage;
             existingPost.Description = newPost.Description;
-            
+
 
 
             await _context.SaveChangesAsync();

@@ -11,6 +11,13 @@
             <h2>Your shopping cart summary</h2>
         </div>
 
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <div class="alert alert-danger" role="alert">
+                @TempData["ErrorMessage"]
+            </div>
+        }
+
         <table class="table">
             <thead>
                 <tr>
