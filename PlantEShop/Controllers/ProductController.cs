@@ -186,7 +186,7 @@ namespace PlantEShop.Controllers
 
 
         }
-
+        [AllowAnonymous]
         public async Task<IActionResult> ProductByCategory(int id)
         {
             var result = await _service.GetByCategoryAsync(id);
