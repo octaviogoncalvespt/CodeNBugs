@@ -68,8 +68,13 @@ namespace PlantEShop.Controllers
 
         public async Task<IActionResult> OrderConfirm()
         {
-            
             var items = _shoppingCart.GetShoppingCartItems();
+            if (!items.Any())
+            {
+                TempData["ErrorMessage"] = "Your shopping cart is empty. Please add some items before proceeding.";
+                return RedirectToAction(nameof(ShoppingCart));
+            }
+
             _shoppingCart.ShoppingCartItems = items;
             var response = new ShoppingCartVM()
             {
@@ -78,7 +83,6 @@ namespace PlantEShop.Controllers
             };
 
             return View("OrderConfirm", response);
-            
         }
 
         public async Task<IActionResult> CompleteOrder()

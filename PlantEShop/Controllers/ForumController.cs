@@ -82,5 +82,26 @@ namespace PlantEShop.Controllers
             if (PostDetails == null) return View("NotFound");
             return View(PostDetails);
         }
+
+        
+        [HttpPost]
+        public async Task<IActionResult> AddComment([Bind("Content")] Comment comment, int postId)
+        {
+            string userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            comment.UserId = userId;
+            comment.CreatedAt = DateTime.Now;
+            comment.PostId = postId;
+
+            await _service.AddCommentAsync(comment, postId);
+
+            if (!ModelState.IsValid)
+            {
+                return View("Error");
+            }
+
+            var PostDetails = await _service.GetByIdAsync(postId);
+
+            return View("Details", PostDetails);
+        }
     }
 }

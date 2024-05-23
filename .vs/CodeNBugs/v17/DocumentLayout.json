@@ -3,28 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\controllers\\forumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\views\\forum\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\forum\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\views\\product\\managementindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\product\\managementindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\views\\forum\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\forum\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|c:\\users\\octav\\desktop\\codenbugs\\repo\\services\\forumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|solutionrelative:repo\\services\\forumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\views\\forum\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\forum\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 508,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,15 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Forum\\Details.cshtml",
-              "RelativeDocumentMoniker": "PlantEShop\\Views\\Forum\\Details.cshtml",
-              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Forum\\Details.cshtml",
-              "RelativeToolTip": "PlantEShop\\Views\\Forum\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T00:08:27.744Z",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "PlantEShop\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "PlantEShop\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAADwv7wAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T18:49:05.161Z",
               "EditorCaption": ""
             },
             {
@@ -65,82 +49,9 @@
               "RelativeDocumentMoniker": "PlantEShop\\Views\\Forum\\Index.cshtml",
               "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Forum\\Index.cshtml",
               "RelativeToolTip": "PlantEShop\\Views\\Forum\\Index.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAswCYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAswCAAAACEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T00:03:01.26Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "PlantEShop\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "PlantEShop\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAkwKgAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:58:02.384Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ForumService.cs",
-              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\Repo\\Services\\ForumService.cs",
-              "RelativeDocumentMoniker": "Repo\\Services\\ForumService.cs",
-              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\Repo\\Services\\ForumService.cs",
-              "RelativeToolTip": "Repo\\Services\\ForumService.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCUAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:44:54.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ForumController.cs",
-              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ForumController.cs",
-              "RelativeDocumentMoniker": "PlantEShop\\Controllers\\ForumController.cs",
-              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ForumController.cs",
-              "RelativeToolTip": "PlantEShop\\Controllers\\ForumController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAkwE8AAAAKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-21T23:38:17.855Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "61410bff-1a13-4078-aaf9-8daafa8e7bad",
-        "Display": 1,
-        "X": 75,
-        "Y": 72,
-        "Width": 1578,
-        "Height": 931,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ManagementIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Product\\ManagementIndex.cshtml",
-              "RelativeDocumentMoniker": "PlantEShop\\Views\\Product\\ManagementIndex.cshtml",
-              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Product\\ManagementIndex.cshtml",
-              "RelativeToolTip": "PlantEShop\\Views\\Product\\ManagementIndex.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC4AAACTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-22T00:14:48.681Z",
+              "WhenOpened": "2024-05-23T18:48:05.217Z",
               "EditorCaption": ""
             }
           ]

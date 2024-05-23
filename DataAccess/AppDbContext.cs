@@ -29,6 +29,8 @@ namespace DataAccess
 
         public DbSet<Post> Posts { get; set; }
 
+        public DbSet<Comment> Comments { get; set; }
+
 
 
 

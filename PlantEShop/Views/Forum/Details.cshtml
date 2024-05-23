@@ -17,4 +17,35 @@
     <p>Posted by: @Model.User.FullName</p>
 </div>
 
-<a class="btn btn-outline-primary" asp-action="Index">Back to List</a>
+<h2>Comments</h2>
+<div id="commentsList">
+    @if (Model.Comments != null && Model.Comments.Any())
+    {
+        foreach (var comment in Model.Comments)
+        {
+            <div class="border rounded p-2 mb-2">
+                <p>@comment.Content</p>
+                <small>by @comment.User.FullName on @comment.CreatedAt</small>
+            </div>
+        }
+    }
+    else
+    {
+        <p>No comments yet.</p>
+    }
+</div>
+
+@if (User.Identity.IsAuthenticated)
+{
+    <form asp-action="AddComment" method="post">
+        <div class="form-group">
+            <label>Add a Comment:</label>
+            <textarea class="form-control" name="Content" required></textarea>
+        </div>
+        <input type="hidden" name="postId" value="@Model.Id" />
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+}
+
+<a asp-action="Index">Back to List</a>
+

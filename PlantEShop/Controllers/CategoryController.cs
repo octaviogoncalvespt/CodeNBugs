@@ -11,10 +11,12 @@ namespace PlantEShop.Controllers
     public class CategoryController : Controller
     {
         private readonly ICategoryService _categoryService;
+        private readonly IProductService _productService;
 
-        public CategoryController(ICategoryService categoryService)
+        public CategoryController(ICategoryService categoryService, IProductService productService)
         {
             _categoryService = categoryService;
+            _productService = productService;
         }
 
         [AllowAnonymous]
@@ -36,9 +38,9 @@ namespace PlantEShop.Controllers
             if (!ModelState.IsValid)
             {
                 return View("NotFound");
-               
+
             };
-           
+
             await _categoryService.AddAsync(category);
             return RedirectToAction(nameof(Index));
         }
@@ -52,7 +54,7 @@ namespace PlantEShop.Controllers
         public async Task<IActionResult> Edit(int id)
         {
             var categories = await _categoryService.GetByIdAsync(id);
-            
+
             if (categories == null) return View("NotFound");
             return View(categories);
         }
@@ -84,10 +86,17 @@ namespace PlantEShop.Controllers
             var category = await _categoryService.GetByIdAsync(id);
             if (category == null) return View("NotFound");
 
-            
+
 
             await _categoryService.DeleteAsync(id);
             return RedirectToAction(nameof(ManagementIndex));
+        }
+
+        public async Task<IActionResult> ProductByCategory(int id)
+        {
+            var result = await _productService.GetByCategoryAsync(id);
+
+            return View("Index", result);
         }
     }
 }
