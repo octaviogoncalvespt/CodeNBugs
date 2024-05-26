@@ -103,5 +103,16 @@ namespace PlantEShop.Controllers
 
             return View("Details", PostDetails);
         }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var postDetails = await _service.GetByIdAsync(id);
+            if (postDetails == null) return View("NotFound");
+
+            bool imageDeleted = await _uploadImageService.DeleteImageAsync(postDetails.PostImage, "codenbugsproductsimg");
+
+            await _service.DeleteAsync(id);
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

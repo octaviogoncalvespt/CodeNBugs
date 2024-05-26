@@ -31,6 +31,10 @@ namespace DataAccess
 
         public DbSet<Comment> Comments { get; set; }
 
+        public DbSet<Challenge> Challenges { get; set; }
+
+        public DbSet<UserGuess> UserGuesses { get; set; }
+
 
 
 

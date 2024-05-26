@@ -178,14 +178,7 @@ namespace PlantEShop.Controllers
             return View(ProductDetails);
         }
 
-        [AllowAnonymous]
-        public async Task<IActionResult> ProductsByCategory(int id)
-        {
-            var productsInCategory = await _service.GetByCategoryAsync(id);
-            return View(productsInCategory);
-
-
-        }
+        
         [AllowAnonymous]
         public async Task<IActionResult> ProductByCategory(int id)
         {
