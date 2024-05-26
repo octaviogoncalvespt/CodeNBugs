@@ -307,3 +307,4 @@ C:\Users\mgabc\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\scopedcss\projectbu
 C:\Users\mgabc\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\PlantEShop.csproj.Up2Date
 C:\Users\mgabc\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\PlantEShop.genruntimeconfig.cache
 C:\Users\mgabc\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\ref\PlantEShop.dll
+C:\Users\mgabc\Desktop\CodeNBugs\PlantEShop\obj\Debug\net8.0\PlantEShop.sourcelink.json
