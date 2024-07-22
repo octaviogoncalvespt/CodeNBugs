@@ -9,19 +9,13 @@ using System.Threading.Tasks;
 
 namespace Repo.Services
 {
-    public class ChallengeService
+    public class ChallengeService : IChallengeService
     {
         private readonly AppDbContext _context;
 
         public ChallengeService(AppDbContext context)
         {
             _context = context;
-        }
-
-        public async Task<Challenge> GetActiveChallengeAsync()
-        {
-            var today = DateTime.Today;
-            return await _context.Challenges.FirstOrDefaultAsync(c => c.ActiveDate.Date == today);
         }
 
         public async Task AddChallengeAsync(Challenge challenge)
@@ -41,6 +35,18 @@ namespace Repo.Services
             var attempts = await _context.UserGuesses.CountAsync(g => g.UserId == userId && g.ChallengeId == challengeId);
             return 3 - attempts;
         }
+
+        public async Task<Challenge> GetActiveChallengeAsync()
+        {
+            var today = DateTime.Today;
+            return await _context.Challenges.FirstOrDefaultAsync(c => c.ActiveDate.Date == today);
+        }
+
+        public async Task<IEnumerable<Challenge>> GetAllAsync()
+        {
+            var result = await _context.Challenges.ToListAsync();
+            return result;
+        }
     }
 }
-}
+

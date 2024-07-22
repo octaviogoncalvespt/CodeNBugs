@@ -13,5 +13,7 @@ namespace Repo.Services
         Task AddChallengeAsync(Challenge challenge);
         Task AddGuessAsync(UserGuess guess, int challengeId);
         Task<int> GetRemainingAttemptsAsync(string userId, int challengeId);
+
+        Task<IEnumerable<Challenge>> GetAllAsync();
     }
 }

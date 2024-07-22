@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\",
+  "WorkspaceRootPath": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -29,6 +30,38 @@
     {
       "AbsoluteMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|c:\\users\\octav\\desktop\\codenbugs\\datahub\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|solutionrelative:datahub\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\planteshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\planteshop\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\planteshop\\views\\challenge\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\challenge\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\planteshop\\views\\challenge\\managementindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\challenge\\managementindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\repo\\services\\challengeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|solutionrelative:repo\\services\\challengeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\repo\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|solutionrelative:repo\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\repo\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|solutionrelative:repo\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\repo\\services\\ichallengeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|solutionrelative:repo\\services\\ichallengeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
     }
   ],
   "DocumentGroupContainers": [
@@ -37,16 +70,26 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< HEAD
           "DockedWidth": 508,
           "SelectedChildIndex": 3,
+=======
+          "DockedWidth": 521,
+          "SelectedChildIndex": 0,
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PlantEShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PlantEShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAADEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T02:26:13.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -77,6 +120,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\appsettings.Development.json",
               "RelativeDocumentMoniker": "PlantEShop\\appsettings.Development.json",
@@ -125,14 +169,95 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ChallengeController.cs",
-              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ChallengeController.cs",
-              "RelativeDocumentMoniker": "PlantEShop\\Controllers\\ChallengeController.cs",
-              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ChallengeController.cs",
-              "RelativeToolTip": "PlantEShop\\Controllers\\ChallengeController.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwDkAAAAgAAAA",
+=======
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Challenge\\Index.cshtml",
+              "RelativeDocumentMoniker": "PlantEShop\\Views\\Challenge\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Challenge\\Index.cshtml",
+              "RelativeToolTip": "PlantEShop\\Views\\Challenge\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T01:34:53.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManagementIndex.cshtml",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Challenge\\ManagementIndex.cshtml",
+              "RelativeDocumentMoniker": "PlantEShop\\Views\\Challenge\\ManagementIndex.cshtml",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Challenge\\ManagementIndex.cshtml",
+              "RelativeToolTip": "PlantEShop\\Views\\Challenge\\ManagementIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-26T01:30:19.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Repo\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\ProductService.cs",
+              "RelativeToolTip": "Repo\\Services\\ProductService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAA1wCcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T01:25:57.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IChallengeService.cs",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\IChallengeService.cs",
+              "RelativeDocumentMoniker": "Repo\\Services\\IChallengeService.cs",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\IChallengeService.cs",
+              "RelativeToolTip": "Repo\\Services\\IChallengeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T01:22:44.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "Repo\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\IProductService.cs",
+              "RelativeToolTip": "Repo\\Services\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T01:22:34.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ChallengeService.cs",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\ChallengeService.cs",
+              "RelativeDocumentMoniker": "Repo\\Services\\ChallengeService.cs",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\Repo\\Services\\ChallengeService.cs",
+              "RelativeToolTip": "Repo\\Services\\ChallengeService.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowCwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T00:51:04.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
+              "Title": "ChallengeController.cs",
+              "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ChallengeController.cs",
+              "RelativeDocumentMoniker": "PlantEShop\\Controllers\\ChallengeController.cs",
+              "ToolTip": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ChallengeController.cs",
+              "RelativeToolTip": "PlantEShop\\Controllers\\ChallengeController.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwGYAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
               "WhenOpened": "2024-05-25T17:54:07.576Z"
+=======
+              "WhenOpened": "2024-05-25T17:54:07.576Z",
+              "EditorCaption": ""
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
             }
           ]
         }

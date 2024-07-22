@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlantEShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72dc93028b3a969e1e09177806df3ae59e91b401")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d822aab5fbf5198281591bb71459b411f61ec22c")]
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
 [assembly: System.Reflection.AssemblyProductAttribute("PlantEShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlantEShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

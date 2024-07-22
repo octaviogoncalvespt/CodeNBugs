@@ -559,19 +559,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\octav\\.nuget\\packages\\": {}
+    "C:\\Users\\mgabc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\DataHub.csproj",
+      "projectUniqueName": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\DataHub\\DataHub.csproj",
       "projectName": "DataHub",
-      "projectPath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\DataHub.csproj",
-      "packagesPath": "C:\\Users\\octav\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\obj\\",
+      "projectPath": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\DataHub\\DataHub.csproj",
+      "packagesPath": "C:\\Users\\mgabc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\DataHub\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\octav\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mgabc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -579,8 +579,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://pkgs.dev.azure.com/octavioteixeira980108/_packaging/EShopOnWebShared/nuget/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -624,7 +624,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

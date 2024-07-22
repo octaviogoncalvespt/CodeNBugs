@@ -28,11 +28,12 @@ namespace PlantEShop.Controllers
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var attemptsLeft = userId == null ? 3 : await _challengeService.GetRemainingAttemptsAsync(userId, challenge.Id);
+            var attemptsLeft = userId == null ? 3 : await _challengeService.GetRemainingAttemptsAsync(userId, challenge.ChallengeId);
 
             return View(challenge);
         }
 
+        /*
         [HttpPost]
         public async Task<IActionResult> SubmitGuess([Bind("Guess")] UserGuess userGuess, int challengeId)
         {
@@ -62,7 +63,7 @@ namespace PlantEShop.Controllers
 
             return View("Index", model);
         }
-
+        */
 
         [Authorize(Roles = "admin")]
         [HttpGet]
@@ -94,7 +95,17 @@ namespace PlantEShop.Controllers
             }
 
             await _challengeService.AddChallengeAsync(challenge);
-            return RedirectToAction(nameof(Index));
+            return View("ManagementIndex");
+        }
+
+        public async Task<IActionResult> ManagementIndex()
+        {
+            var challenge = await _challengeService.GetAllAsync();
+            if (challenge == null)
+            {
+                return View("NotFound");
+            }
+            return View(challenge);
         }
     }
 }
