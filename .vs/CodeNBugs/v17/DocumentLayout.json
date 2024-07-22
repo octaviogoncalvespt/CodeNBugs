@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\",
   "Documents": [
     {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|c:\\users\\octav\\desktop\\codenbugs\\datahub\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|solutionrelative:datahub\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA23FD90-E75F-42AF-AD1C-2F13CCD5AC6A}|DataAccess\\DataAccess.csproj|c:\\users\\octav\\desktop\\codenbugs\\dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA23FD90-E75F-42AF-AD1C-2F13CCD5AC6A}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\octav\\desktop\\codenbugs\\planteshop\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\controllers\\challengecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|c:\\users\\octav\\desktop\\codenbugs\\datahub\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|solutionrelative:datahub\\models\\challenge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|c:\\users\\octav\\desktop\\codenbugs\\datahub\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CCAC2F9-354B-40D3-9FDB-53CCDEB95ADB}|DataHub\\DataHub.csproj|solutionrelative:datahub\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
       "AbsoluteMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\planteshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1FD139CC-34A0-4970-BC06-2BF808C8EC69}|PlantEShop\\PlantEShop.csproj|solutionrelative:planteshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -33,6 +61,7 @@
     {
       "AbsoluteMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|c:\\users\\mgabc\\desktop\\codenbugs\\repo\\services\\ichallengeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33AB4E96-A744-4659-A30E-A8947CE953B0}|Repo\\Repo.csproj|solutionrelative:repo\\services\\ichallengeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
     }
   ],
   "DocumentGroupContainers": [
@@ -41,8 +70,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< HEAD
+          "DockedWidth": 508,
+          "SelectedChildIndex": 3,
+=======
           "DockedWidth": 521,
           "SelectedChildIndex": 0,
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
           "Children": [
             {
               "$type": "Document",
@@ -59,7 +93,83 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "DataHub\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\Models\\Product.cs",
+              "RelativeToolTip": "DataHub\\Models\\Product.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T19:12:58.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\appsettings.json",
+              "RelativeDocumentMoniker": "PlantEShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\appsettings.json",
+              "RelativeToolTip": "PlantEShop\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T19:11:27.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "PlantEShop\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\PlantEShop\\appsettings.Development.json",
+              "RelativeToolTip": "PlantEShop\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-22T19:11:23.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataAccess\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DataAccess\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataAccess\\AppDbContext.cs",
+              "RelativeToolTip": "DataAccess\\AppDbContext.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T12:33:41.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Challenge.cs",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\Models\\Challenge.cs",
+              "RelativeDocumentMoniker": "DataHub\\Models\\Challenge.cs",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\Models\\Challenge.cs",
+              "RelativeToolTip": "DataHub\\Models\\Challenge.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T19:54:56.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "DataHub\\Models\\Post.cs",
+              "ToolTip": "C:\\Users\\octav\\Desktop\\CodeNBugs\\DataHub\\Models\\Post.cs",
+              "RelativeToolTip": "DataHub\\Models\\Post.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T18:50:15.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+=======
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Views\\Challenge\\Index.cshtml",
               "RelativeDocumentMoniker": "PlantEShop\\Views\\Challenge\\Index.cshtml",
@@ -134,6 +244,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
               "Title": "ChallengeController.cs",
               "DocumentMoniker": "C:\\Users\\mgabc\\Desktop\\CodeNBugs\\PlantEShop\\Controllers\\ChallengeController.cs",
               "RelativeDocumentMoniker": "PlantEShop\\Controllers\\ChallengeController.cs",
@@ -141,8 +252,12 @@
               "RelativeToolTip": "PlantEShop\\Controllers\\ChallengeController.cs",
               "ViewState": "AQIAAEcAAAAAAAAAAAAwwGYAAAA/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
+              "WhenOpened": "2024-05-25T17:54:07.576Z"
+=======
               "WhenOpened": "2024-05-25T17:54:07.576Z",
               "EditorCaption": ""
+>>>>>>> e4a9acd838d695f6696cbd7daaf69deee8d09da0
             }
           ]
         }
